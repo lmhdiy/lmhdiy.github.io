@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Lee&#39;s CS Notes</title>
+    <title>CO 01 | Lee&#39;s CS Notes</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="My CS Notes">
+<meta name="description" content="CMU 10-725 Convex Optimization">
 <meta name="generator" content="Hugo 0.124.1">
 
 
@@ -23,11 +23,6 @@
 
 
 
-
-  
-    <link href="/categories/themes/index.xml" rel="alternate" type="application/rss+xml" title="Lee&#39;s CS Notes" />
-    <link href="/categories/themes/index.xml" rel="feed" type="application/rss+xml" title="Lee&#39;s CS Notes" />
-  
 
 
 
@@ -50,58 +45,92 @@
 
     <main class="main">
       
-<header class="profile">
+
+<section id="single">
+    <h1 class="title">CO 01</h1>
+
+    <div class="tip">
+        <time datetime="2024-03-22 00:00:00 &#43;0000 UTC">Mar 22, 2024</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          301 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1 minute read
+        </span>
+    </div>
+
     
-        <img class="avatar" alt="avatar" src="/images/avatar.png" />
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>Table of Contents
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#这门课程可以让你学会">这门课程可以让你学会：</a></li>
+    <li><a href="#案例1图像去噪">案例1：图像去噪</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
     
 
-    <h1>Lee&#39;s CS Notes</h1>
-    
-    
-      <h2>CS Student</h2>
-    
-</header>
 
-<section id="archive">
-   
-    
-        <div class="group">
-            <h3 class="key">
-                2024
-            </h3>
+    <div class="content">
+      <p>CMU 10-725 Lecture 01：</p>
+<h1 id="lecture-1-introduction">Lecture 1： Introduction <a href="#lecture-1-introduction" class="anchor">🔗</a></h1><h2 id="这门课程可以让你学会">这门课程可以让你学会： <a href="#%e8%bf%99%e9%97%a8%e8%af%be%e7%a8%8b%e5%8f%af%e4%bb%a5%e8%ae%a9%e4%bd%a0%e5%ad%a6%e4%bc%9a" class="anchor">🔗</a></h2><ol>
+<li>针对不同的问题，用不同的算法</li>
+<li>加深对统计过程的理解</li>
+<li>构造新的P（容易优化的问题），解决不容易被优化的问题</li>
+</ol>
+<h2 id="案例1图像去噪">案例1：图像去噪 <a href="#%e6%a1%88%e4%be%8b1%e5%9b%be%e5%83%8f%e5%8e%bb%e5%99%aa" class="anchor">🔗</a></h2><p>2D fussed lasso problem &amp; ROF模型</p>
+<p>三种解决方案 &amp; 去噪效果</p>
+<ul>
+<li>
+<p>ADMM：20 iters （学期末会讲）</p>
+</li>
+<li>
+<p>近端梯度下降：1K iters</p>
+</li>
+<li>
+<p>坐标下降法</p>
+<p>Q：上述三种方法用于优化同一个凸函数，但是他们的结果不同，那么凸优化问题应该有一个唯一最优解吗？</p>
+<p>A：凸优化未必有唯一最优解。但是不同的解必须 <code>achieve the same criteria value</code>，最后会讨论。</p>
+</li>
+</ul>
+<p>总结：
+即使对于同一个优化问题，不同的方法也会导致截然不同的效果。在本案例中ADMM方法更好，但是对另一个问题，我们仍然需要具体地分析哪一种优化方法更适合。</p>
+<p><strong><center> to be continue &hellip; </center></strong></p>
+    </div>
 
+    
+        <div class="tags">
             
-                <div class="value">
-                  <div class="date">
-                      <time datetime="2024-03-22 00:00:00 &#43;0000 UTC">Mar 22</time>
-                  </div>
-                  <div class="title">
-                      <a href="http://localhost:1313/posts/%E5%87%B8%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0-01/">
-                          凸优化笔记 01
-                      </a>
-
-                      
-                          <div class="tags">
-                              
-                                  <a href="http://localhost:1313/tags/%E7%AC%94%E8%AE%B0">笔记</a>
-                              
-                                  <a href="http://localhost:1313/tags/cmu-10-725">CMU 10-725</a>
-                              
-                                  <a href="http://localhost:1313/tags/%E5%87%B8%E4%BC%98%E5%8C%96">凸优化</a>
-                              
-                          </div>
-                      
-                  </div>
-                </div>
-                      
+                <a href="http://localhost:1313/tags/notes">notes</a>
+            
+                <a href="http://localhost:1313/tags/cmu-10-725">CMU 10-725</a>
+            
+                <a href="http://localhost:1313/tags/co">CO</a>
+            
         </div>
-
     
-
-
+    
+    
 
 </section>
-
 
 
     </main>

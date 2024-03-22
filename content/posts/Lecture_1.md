@@ -1,7 +1,7 @@
 +++
 author = "Lee"
 title = "凸优化笔记 01"
-date = "2024-03-23"
+date = "2024-03-22"
 description = "CMU 10-725 Convex Optimization"
 tags = [
     "笔记",
@@ -13,9 +13,11 @@ categories = [
     "syntax",
 ]
 series = ["CMU_10-725"]
+aliases = ["CMU-10-725-01"]
+defaultContentLanguage = "zh"
 +++
 
-CMU 10-725 Lecture 01：
+CMU 10-725 Lecture 01
 <!--more-->
 # Lecture 1： Introduction
 
