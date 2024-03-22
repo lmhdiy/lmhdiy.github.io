@@ -9,8 +9,7 @@ tags = [
     "凸优化"
 ]
 categories = [
-    "themes",
-    "syntax",
+    "notes"
 ]
 series = ["CMU_10-725"]
 aliases = ["CMU-10-725-01"]
@@ -26,7 +25,7 @@ CMU 10-725 Lecture 01
 1. 针对不同的问题，用不同的算法
 2. 加深对统计过程的理解
 3. 构造新的P（容易优化的问题），解决不容易被优化的问题
-    
+
 ## 案例1：图像去噪 
 2D fussed lasso problem & ROF模型 
 
